@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BCA76770-42C0-4F8B-92A0-CEE95327326F}|Prolab2_3_3\\Prolab2_3_3.csproj|C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\prolab2_3_3\\doktorgiris.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCA76770-42C0-4F8B-92A0-CEE95327326F}|Prolab2_3_3\\Prolab2_3_3.csproj|solutionrelative:prolab2_3_3\\doktorgiris.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCA76770-42C0-4F8B-92A0-CEE95327326F}|Prolab2_3_3\\Prolab2_3_3.csproj|C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\prolab2_3_3\\doktor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCA76770-42C0-4F8B-92A0-CEE95327326F}|Prolab2_3_3\\Prolab2_3_3.csproj|solutionrelative:prolab2_3_3\\doktor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCA76770-42C0-4F8B-92A0-CEE95327326F}|Prolab2_3_3\\Prolab2_3_3.csproj|c:\\users\\ezgi\\source\\repos\\prolab2_3_3\\prolab2_3_3\\hastagiris.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCA76770-42C0-4F8B-92A0-CEE95327326F}|Prolab2_3_3\\Prolab2_3_3.csproj|solutionrelative:prolab2_3_3\\hastagiris.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCA76770-42C0-4F8B-92A0-CEE95327326F}|Prolab2_3_3\\Prolab2_3_3.csproj|C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\prolab2_3_3\\hastagiris.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BCA76770-42C0-4F8B-92A0-CEE95327326F}|Prolab2_3_3\\Prolab2_3_3.csproj|solutionrelative:prolab2_3_3\\hastagiris.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCA76770-42C0-4F8B-92A0-CEE95327326F}|Prolab2_3_3\\Prolab2_3_3.csproj|C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\prolab2_3_3\\doktoranasayfa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BCA76770-42C0-4F8B-92A0-CEE95327326F}|Prolab2_3_3\\Prolab2_3_3.csproj|solutionrelative:prolab2_3_3\\doktoranasayfa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCA76770-42C0-4F8B-92A0-CEE95327326F}|Prolab2_3_3\\Prolab2_3_3.csproj|C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\prolab2_3_3\\doktorgiris.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BCA76770-42C0-4F8B-92A0-CEE95327326F}|Prolab2_3_3\\Prolab2_3_3.csproj|solutionrelative:prolab2_3_3\\doktorgiris.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCA76770-42C0-4F8B-92A0-CEE95327326F}|Prolab2_3_3\\Prolab2_3_3.csproj|C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\prolab2_3_3\\hastaanasayfa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BCA76770-42C0-4F8B-92A0-CEE95327326F}|Prolab2_3_3\\Prolab2_3_3.csproj|solutionrelative:prolab2_3_3\\hastaanasayfa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCA76770-42C0-4F8B-92A0-CEE95327326F}|Prolab2_3_3\\Prolab2_3_3.csproj|C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\prolab2_3_3\\anasayfa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BCA76770-42C0-4F8B-92A0-CEE95327326F}|Prolab2_3_3\\Prolab2_3_3.csproj|solutionrelative:prolab2_3_3\\anasayfa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCA76770-42C0-4F8B-92A0-CEE95327326F}|Prolab2_3_3\\Prolab2_3_3.csproj|C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\prolab2_3_3\\yonetici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCA76770-42C0-4F8B-92A0-CEE95327326F}|Prolab2_3_3\\Prolab2_3_3.csproj|solutionrelative:prolab2_3_3\\yonetici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCA76770-42C0-4F8B-92A0-CEE95327326F}|Prolab2_3_3\\Prolab2_3_3.csproj|C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\prolab2_3_3\\rapopr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCA76770-42C0-4F8B-92A0-CEE95327326F}|Prolab2_3_3\\Prolab2_3_3.csproj|solutionrelative:prolab2_3_3\\rapopr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCA76770-42C0-4F8B-92A0-CEE95327326F}|Prolab2_3_3\\Prolab2_3_3.csproj|C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\prolab2_3_3\\hasta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCA76770-42C0-4F8B-92A0-CEE95327326F}|Prolab2_3_3\\Prolab2_3_3.csproj|solutionrelative:prolab2_3_3\\hasta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HastaGiris.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\Prolab2_3_3\\HastaGiris.aspx.cs",
+              "RelativeDocumentMoniker": "Prolab2_3_3\\HastaGiris.aspx.cs",
+              "ToolTip": "C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\Prolab2_3_3\\HastaGiris.aspx.cs",
+              "RelativeToolTip": "Prolab2_3_3\\HastaGiris.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T12:51:01.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HastaGiris.aspx",
+              "DocumentMoniker": "C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\Prolab2_3_3\\HastaGiris.aspx",
+              "RelativeDocumentMoniker": "Prolab2_3_3\\HastaGiris.aspx",
+              "ToolTip": "C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\Prolab2_3_3\\HastaGiris.aspx",
+              "RelativeToolTip": "Prolab2_3_3\\HastaGiris.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-01T12:38:59.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DoktorAnasayfa.aspx",
+              "DocumentMoniker": "C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\Prolab2_3_3\\DoktorAnasayfa.aspx",
+              "RelativeDocumentMoniker": "Prolab2_3_3\\DoktorAnasayfa.aspx",
+              "ToolTip": "C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\Prolab2_3_3\\DoktorAnasayfa.aspx",
+              "RelativeToolTip": "Prolab2_3_3\\DoktorAnasayfa.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-01T12:38:51.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Doktor.cs",
+              "DocumentMoniker": "C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\Prolab2_3_3\\Doktor.cs",
+              "RelativeDocumentMoniker": "Prolab2_3_3\\Doktor.cs",
+              "ToolTip": "C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\Prolab2_3_3\\Doktor.cs",
+              "RelativeToolTip": "Prolab2_3_3\\Doktor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T12:36:34.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HastaAnasayfa.aspx",
+              "DocumentMoniker": "C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\Prolab2_3_3\\HastaAnasayfa.aspx",
+              "RelativeDocumentMoniker": "Prolab2_3_3\\HastaAnasayfa.aspx",
+              "ToolTip": "C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\Prolab2_3_3\\HastaAnasayfa.aspx",
+              "RelativeToolTip": "Prolab2_3_3\\HastaAnasayfa.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-01T12:32:44.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AnaSayfa.aspx",
+              "DocumentMoniker": "C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\Prolab2_3_3\\AnaSayfa.aspx",
+              "RelativeDocumentMoniker": "Prolab2_3_3\\AnaSayfa.aspx",
+              "ToolTip": "C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\Prolab2_3_3\\AnaSayfa.aspx",
+              "RelativeToolTip": "Prolab2_3_3\\AnaSayfa.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-19T21:05:54.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoktorGiris.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\Prolab2_3_3\\DoktorGiris.aspx.cs",
+              "RelativeDocumentMoniker": "Prolab2_3_3\\DoktorGiris.aspx.cs",
+              "ToolTip": "C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\Prolab2_3_3\\DoktorGiris.aspx.cs",
+              "RelativeToolTip": "Prolab2_3_3\\DoktorGiris.aspx.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:04:54.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DoktorGiris.aspx",
+              "DocumentMoniker": "C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\Prolab2_3_3\\DoktorGiris.aspx",
+              "RelativeDocumentMoniker": "Prolab2_3_3\\DoktorGiris.aspx",
+              "ToolTip": "C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\Prolab2_3_3\\DoktorGiris.aspx",
+              "RelativeToolTip": "Prolab2_3_3\\DoktorGiris.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-22T08:04:51.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Yonetici.cs",
+              "DocumentMoniker": "C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\Prolab2_3_3\\Yonetici.cs",
+              "RelativeDocumentMoniker": "Prolab2_3_3\\Yonetici.cs",
+              "ToolTip": "C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\Prolab2_3_3\\Yonetici.cs",
+              "RelativeToolTip": "Prolab2_3_3\\Yonetici.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T06:12:45.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Rapopr.cs",
+              "DocumentMoniker": "C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\Prolab2_3_3\\Rapopr.cs",
+              "RelativeDocumentMoniker": "Prolab2_3_3\\Rapopr.cs",
+              "ToolTip": "C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\Prolab2_3_3\\Rapopr.cs",
+              "RelativeToolTip": "Prolab2_3_3\\Rapopr.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T06:12:29.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Hasta.cs",
+              "DocumentMoniker": "C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\Prolab2_3_3\\Hasta.cs",
+              "RelativeDocumentMoniker": "Prolab2_3_3\\Hasta.cs",
+              "ToolTip": "C:\\Users\\EZGI\\source\\repos\\Prolab2_3_3\\Prolab2_3_3\\Hasta.cs",
+              "RelativeToolTip": "Prolab2_3_3\\Hasta.cs",
+              "ViewState": "AQIAACkBAAAAAAAAAAAIwG0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T06:05:32.771Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

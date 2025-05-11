@@ -1,0 +1,390 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BCA76770-42C0-4F8B-92A0-CEE95327326F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Prolab2_3_3</RootNamespace>
+    <AssemblyName>Prolab2_3_3</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44336</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AnaSayfa.aspx" />
+    <Content Include="DoktorAnasayfa.aspx" />
+    <Content Include="DoktorGiris.aspx" />
+    <Content Include="DoktorKendiBilgisiniGuncelleme.aspx" />
+    <Content Include="DoktorRandevuGoruntuleme.aspx" />
+    <Content Include="DoktorRaporEkle.aspx" />
+    <Content Include="DoktorRaporGuncelle.aspx" />
+    <Content Include="DoktorRaporSil.aspx" />
+    <Content Include="Hakkimizda.aspx" />
+    <Content Include="HastaAnasayfa.aspx" />
+    <Content Include="HastaGiris.aspx" />
+    <Content Include="HastaKendiBilgisiniGuncelle.aspx" />
+    <Content Include="HastaRandevuGuncelle.aspx" />
+    <Content Include="HastaRandevuIptalEt.aspx" />
+    <Content Include="HastaRandevularimiGoruntule.aspx" />
+    <Content Include="HastaRandevuOlustur.aspx" />
+    <Content Include="HastaRaporEkle.aspx" />
+    <Content Include="HastaRaporGoruntuleme.aspx" />
+    <Content Include="HastaRaporGuncelleme.aspx" />
+    <Content Include="HastaRaporSil.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Yardim.aspx" />
+    <Content Include="YoneticiAnasayfa.aspx" />
+    <Content Include="YoneticiDoktorEkleme.aspx" />
+    <Content Include="YoneticiDoktorGuncelleme.aspx" />
+    <Content Include="YoneticiDoktorSilme.aspx" />
+    <Content Include="YoneticiGiris.aspx" />
+    <Content Include="YoneticiHastaBilgisiGuncelle.aspx" />
+    <Content Include="YoneticiHastaEkle.aspx" />
+    <Content Include="YoneticiHastaSil.aspx" />
+    <Content Include="YoneticiKendiBilgisiniGuncelle.aspx" />
+    <Content Include="YoneticiRaporBilgisiGuncelle.aspx" />
+    <Content Include="YoneticiRaporEkle.aspx" />
+    <Content Include="YoneticiRaporSil.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnaSayfa.aspx.cs">
+      <DependentUpon>AnaSayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AnaSayfa.aspx.designer.cs">
+      <DependentUpon>AnaSayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor.cs" />
+    <Compile Include="DoktorAnasayfa.aspx.cs">
+      <DependentUpon>DoktorAnasayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoktorAnasayfa.aspx.designer.cs">
+      <DependentUpon>DoktorAnasayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoktorGiris.aspx.cs">
+      <DependentUpon>DoktorGiris.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoktorGiris.aspx.designer.cs">
+      <DependentUpon>DoktorGiris.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoktorKendiBilgisiniGuncelleme.aspx.cs">
+      <DependentUpon>DoktorKendiBilgisiniGuncelleme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoktorKendiBilgisiniGuncelleme.aspx.designer.cs">
+      <DependentUpon>DoktorKendiBilgisiniGuncelleme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoktorRandevuGoruntuleme.aspx.cs">
+      <DependentUpon>DoktorRandevuGoruntuleme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoktorRandevuGoruntuleme.aspx.designer.cs">
+      <DependentUpon>DoktorRandevuGoruntuleme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoktorRaporEkle.aspx.cs">
+      <DependentUpon>DoktorRaporEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoktorRaporEkle.aspx.designer.cs">
+      <DependentUpon>DoktorRaporEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoktorRaporGuncelle.aspx.cs">
+      <DependentUpon>DoktorRaporGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoktorRaporGuncelle.aspx.designer.cs">
+      <DependentUpon>DoktorRaporGuncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoktorRaporSil.aspx.cs">
+      <DependentUpon>DoktorRaporSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoktorRaporSil.aspx.designer.cs">
+      <DependentUpon>DoktorRaporSil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hakkimizda.aspx.cs">
+      <DependentUpon>Hakkimizda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hakkimizda.aspx.designer.cs">
+      <DependentUpon>Hakkimizda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hasta.cs" />
+    <Compile Include="HastaAnasayfa.aspx.cs">
+      <DependentUpon>HastaAnasayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HastaAnasayfa.aspx.designer.cs">
+      <DependentUpon>HastaAnasayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HastaGiris.aspx.cs">
+      <DependentUpon>HastaGiris.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HastaGiris.aspx.designer.cs">
+      <DependentUpon>HastaGiris.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HastaKendiBilgisiniGuncelle.aspx.cs">
+      <DependentUpon>HastaKendiBilgisiniGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HastaKendiBilgisiniGuncelle.aspx.designer.cs">
+      <DependentUpon>HastaKendiBilgisiniGuncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HastaRandevuGuncelle.aspx.cs">
+      <DependentUpon>HastaRandevuGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HastaRandevuGuncelle.aspx.designer.cs">
+      <DependentUpon>HastaRandevuGuncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HastaRandevuIptalEt.aspx.cs">
+      <DependentUpon>HastaRandevuIptalEt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HastaRandevuIptalEt.aspx.designer.cs">
+      <DependentUpon>HastaRandevuIptalEt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HastaRandevularimiGoruntule.aspx.cs">
+      <DependentUpon>HastaRandevularimiGoruntule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HastaRandevularimiGoruntule.aspx.designer.cs">
+      <DependentUpon>HastaRandevularimiGoruntule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HastaRandevuOlustur.aspx.cs">
+      <DependentUpon>HastaRandevuOlustur.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HastaRandevuOlustur.aspx.designer.cs">
+      <DependentUpon>HastaRandevuOlustur.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HastaRaporEkle.aspx.cs">
+      <DependentUpon>HastaRaporEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HastaRaporEkle.aspx.designer.cs">
+      <DependentUpon>HastaRaporEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HastaRaporGoruntuleme.aspx.cs">
+      <DependentUpon>HastaRaporGoruntuleme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HastaRaporGoruntuleme.aspx.designer.cs">
+      <DependentUpon>HastaRaporGoruntuleme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HastaRaporGuncelleme.aspx.cs">
+      <DependentUpon>HastaRaporGuncelleme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HastaRaporGuncelleme.aspx.designer.cs">
+      <DependentUpon>HastaRaporGuncelleme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HastaRaporSil.aspx.cs">
+      <DependentUpon>HastaRaporSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HastaRaporSil.aspx.designer.cs">
+      <DependentUpon>HastaRaporSil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rapopr.cs" />
+    <Compile Include="Yardim.aspx.cs">
+      <DependentUpon>Yardim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Yardim.aspx.designer.cs">
+      <DependentUpon>Yardim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Yonetici.cs" />
+    <Compile Include="YoneticiAnasayfa.aspx.cs">
+      <DependentUpon>YoneticiAnasayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiAnasayfa.aspx.designer.cs">
+      <DependentUpon>YoneticiAnasayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiDoktorEkleme.aspx.cs">
+      <DependentUpon>YoneticiDoktorEkleme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiDoktorEkleme.aspx.designer.cs">
+      <DependentUpon>YoneticiDoktorEkleme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiDoktorGuncelleme.aspx.cs">
+      <DependentUpon>YoneticiDoktorGuncelleme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiDoktorGuncelleme.aspx.designer.cs">
+      <DependentUpon>YoneticiDoktorGuncelleme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiDoktorSilme.aspx.cs">
+      <DependentUpon>YoneticiDoktorSilme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiDoktorSilme.aspx.designer.cs">
+      <DependentUpon>YoneticiDoktorSilme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiGiris.aspx.cs">
+      <DependentUpon>YoneticiGiris.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiGiris.aspx.designer.cs">
+      <DependentUpon>YoneticiGiris.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiHastaBilgisiGuncelle.aspx.cs">
+      <DependentUpon>YoneticiHastaBilgisiGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiHastaBilgisiGuncelle.aspx.designer.cs">
+      <DependentUpon>YoneticiHastaBilgisiGuncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiHastaEkle.aspx.cs">
+      <DependentUpon>YoneticiHastaEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiHastaEkle.aspx.designer.cs">
+      <DependentUpon>YoneticiHastaEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiHastaSil.aspx.cs">
+      <DependentUpon>YoneticiHastaSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiHastaSil.aspx.designer.cs">
+      <DependentUpon>YoneticiHastaSil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiKendiBilgisiniGuncelle.aspx.cs">
+      <DependentUpon>YoneticiKendiBilgisiniGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiKendiBilgisiniGuncelle.aspx.designer.cs">
+      <DependentUpon>YoneticiKendiBilgisiniGuncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiRaporBilgisiGuncelle.aspx.cs">
+      <DependentUpon>YoneticiRaporBilgisiGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiRaporBilgisiGuncelle.aspx.designer.cs">
+      <DependentUpon>YoneticiRaporBilgisiGuncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiRaporEkle.aspx.cs">
+      <DependentUpon>YoneticiRaporEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiRaporEkle.aspx.designer.cs">
+      <DependentUpon>YoneticiRaporEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiRaporSil.aspx.cs">
+      <DependentUpon>YoneticiRaporSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiRaporSil.aspx.designer.cs">
+      <DependentUpon>YoneticiRaporSil.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>59165</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44336/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Bu proje bu bilgisayarda olmayan NuGet paketlerine başvuru yapıyor. Bunları indirmek için NuGet Paket Geri Yükleme'yi kullanın. Daha fazla bilgi için, bkz. http://go.microsoft.com/fwlink/?LinkID=322105. Eksik dosya: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
